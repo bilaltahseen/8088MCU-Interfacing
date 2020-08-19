@@ -1,0 +1,493 @@
+{
+  "uuid": "f9eee389dc7b64b07414c755dbdef731",
+  "path": "Offline/8086MemoryInterfacing",
+  "name": "8086MemoryInterfacing",
+  "content": "",
+  "created_at": "2020-08-07 00:04:18",
+  "updated_at": "2020-08-19 22:44:19",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "4510e7a7c07cbea533ae8be6cdd4c82a",
+      "title": "2764/6116RAM",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "4945903e7bf14bb8a2e9b3e823e85d41": 1,
+        "ecd9b891e85b4246afd4fcb98d877a60": 1,
+        "05dbdbfaefea4efb908358a35c08f53d": 1,
+        "e4dcffd8951349f2a913e23f1c2f6f88": 2,
+        "8425d8a6ecbf4290baa4c8501473753b": 1,
+        "c2da8f907c6d4080a33d1ea89ac4b7f0": 2,
+        "7538e68795514d08b9d18237f919388c": 1,
+        "822b968a85b44cb494ed9638ba22433e": 4,
+        "374560732e9741e2abaa3669d60c9b55": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "74LS373",
+          1,
+          "",
+          "U11",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "",
+            "uuid": "05dbdbfaefea4efb908358a35c08f53d"
+          }
+        ],
+        [
+          "InvertorSmall",
+          4,
+          "",
+          "U4,U3,U2,U23",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "",
+            "uuid": "822b968a85b44cb494ed9638ba22433e"
+          }
+        ],
+        [
+          "5_NAND",
+          1,
+          "",
+          "U15",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "",
+            "uuid": "7538e68795514d08b9d18237f919388c"
+          }
+        ],
+        [
+          "74LS139DPI",
+          1,
+          "",
+          "U14",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "",
+            "uuid": "8425d8a6ecbf4290baa4c8501473753b"
+          }
+        ],
+        [
+          "8088",
+          1,
+          "DIP-40_W15.24MM",
+          "U9",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "8ff02081b4b14b319fbee8c20e3df46e",
+            "uuid": "4945903e7bf14bb8a2e9b3e823e85d41"
+          }
+        ],
+        [
+          "8_NAND",
+          1,
+          "",
+          "U1",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "",
+            "uuid": "374560732e9741e2abaa3669d60c9b55"
+          }
+        ],
+        [
+          "6116RAM",
+          2,
+          "",
+          "U17,U18",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "",
+            "uuid": "c2da8f907c6d4080a33d1ea89ac4b7f0"
+          }
+        ],
+        [
+          "2764",
+          2,
+          "",
+          "U13,U12",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "",
+            "uuid": "e4dcffd8951349f2a913e23f1c2f6f88"
+          }
+        ],
+        [
+          "74245",
+          1,
+          "SSOP20",
+          "U10",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "ed1099eb99e4487586ed9aa909fc78dd",
+            "uuid": "ecd9b891e85b4246afd4fcb98d877a60"
+          }
+        ],
+        [
+          "74LS373",
+          1,
+          "",
+          "U8",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "",
+            "uuid": "05dbdbfaefea4efb908358a35c08f53d"
+          }
+        ],
+        [
+          "InvertorSmall",
+          2,
+          "",
+          "U21,U22",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "",
+            "uuid": "822b968a85b44cb494ed9638ba22433e"
+          }
+        ],
+        [
+          "74ALS138DIP",
+          1,
+          "",
+          "U16",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "",
+            "uuid": "5258cbcda7924f3d9fa1b2480a863178"
+          }
+        ],
+        [
+          "8088",
+          1,
+          "DIP-40_W15.24MM",
+          "U9",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "8ff02081b4b14b319fbee8c20e3df46e",
+            "uuid": "4945903e7bf14bb8a2e9b3e823e85d41"
+          }
+        ],
+        [
+          "8255",
+          2,
+          "",
+          "U6,U7",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "",
+            "uuid": "a0de07e28ff24f45a5c1e60259ddbd9b"
+          }
+        ],
+        [
+          "8254",
+          2,
+          "",
+          "U19,U20",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "",
+            "uuid": "a4a092bc4de54d9da94a3ea89865cbad"
+          }
+        ],
+        [
+          "74245",
+          1,
+          "SSOP20",
+          "U5",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "ed1099eb99e4487586ed9aa909fc78dd",
+            "uuid": "ecd9b891e85b4246afd4fcb98d877a60"
+          }
+        ]
+      ],
+      "updateTime": 1597856996,
+      "createTime": 1596742447,
+      "histories": [],
+      "created_at": "2020-08-07 00:34:07",
+      "updated_at": "2020-08-19 22:09:56"
+    },
+    {
+      "uuid": "256f30dff4042d045126bf6facefde17",
+      "title": "8245/8255PIT/C",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "4945903e7bf14bb8a2e9b3e823e85d41": 1,
+        "ecd9b891e85b4246afd4fcb98d877a60": 1,
+        "a0de07e28ff24f45a5c1e60259ddbd9b": 2,
+        "05dbdbfaefea4efb908358a35c08f53d": 1,
+        "5258cbcda7924f3d9fa1b2480a863178": 1,
+        "822b968a85b44cb494ed9638ba22433e": 2,
+        "a4a092bc4de54d9da94a3ea89865cbad": 2
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "74LS373",
+          1,
+          "",
+          "U11",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "",
+            "uuid": "05dbdbfaefea4efb908358a35c08f53d"
+          }
+        ],
+        [
+          "InvertorSmall",
+          4,
+          "",
+          "U4,U3,U2,U23",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "",
+            "uuid": "822b968a85b44cb494ed9638ba22433e"
+          }
+        ],
+        [
+          "5_NAND",
+          1,
+          "",
+          "U15",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "",
+            "uuid": "7538e68795514d08b9d18237f919388c"
+          }
+        ],
+        [
+          "74LS139DPI",
+          1,
+          "",
+          "U14",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "",
+            "uuid": "8425d8a6ecbf4290baa4c8501473753b"
+          }
+        ],
+        [
+          "8088",
+          1,
+          "DIP-40_W15.24MM",
+          "U9",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "8ff02081b4b14b319fbee8c20e3df46e",
+            "uuid": "4945903e7bf14bb8a2e9b3e823e85d41"
+          }
+        ],
+        [
+          "8_NAND",
+          1,
+          "",
+          "U1",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "",
+            "uuid": "374560732e9741e2abaa3669d60c9b55"
+          }
+        ],
+        [
+          "6116RAM",
+          2,
+          "",
+          "U17,U18",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "",
+            "uuid": "c2da8f907c6d4080a33d1ea89ac4b7f0"
+          }
+        ],
+        [
+          "2764",
+          2,
+          "",
+          "U13,U12",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "",
+            "uuid": "e4dcffd8951349f2a913e23f1c2f6f88"
+          }
+        ],
+        [
+          "74245",
+          1,
+          "SSOP20",
+          "U10",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "ed1099eb99e4487586ed9aa909fc78dd",
+            "uuid": "ecd9b891e85b4246afd4fcb98d877a60"
+          }
+        ],
+        [
+          "74LS373",
+          1,
+          "",
+          "U8",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "",
+            "uuid": "05dbdbfaefea4efb908358a35c08f53d"
+          }
+        ],
+        [
+          "InvertorSmall",
+          2,
+          "",
+          "U21,U22",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "",
+            "uuid": "822b968a85b44cb494ed9638ba22433e"
+          }
+        ],
+        [
+          "74ALS138DIP",
+          1,
+          "",
+          "U16",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "",
+            "uuid": "5258cbcda7924f3d9fa1b2480a863178"
+          }
+        ],
+        [
+          "8088",
+          1,
+          "DIP-40_W15.24MM",
+          "U9",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "8ff02081b4b14b319fbee8c20e3df46e",
+            "uuid": "4945903e7bf14bb8a2e9b3e823e85d41"
+          }
+        ],
+        [
+          "8255",
+          2,
+          "",
+          "U6,U7",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "",
+            "uuid": "a0de07e28ff24f45a5c1e60259ddbd9b"
+          }
+        ],
+        [
+          "8254",
+          2,
+          "",
+          "U19,U20",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "",
+            "uuid": "a4a092bc4de54d9da94a3ea89865cbad"
+          }
+        ],
+        [
+          "74245",
+          1,
+          "SSOP20",
+          "U5",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "ed1099eb99e4487586ed9aa909fc78dd",
+            "uuid": "ecd9b891e85b4246afd4fcb98d877a60"
+          }
+        ]
+      ],
+      "updateTime": 1597859059,
+      "createTime": 1597850291,
+      "histories": [],
+      "created_at": "2020-08-19 20:18:11",
+      "updated_at": "2020-08-19 22:44:19"
+    }
+  ],
+  "sort": [
+    "4510e7a7c07cbea533ae8be6cdd4c82a",
+    "256f30dff4042d045126bf6facefde17"
+  ],
+  "title": "8086MemoryInterfacing",
+  "foldername": "8086MemoryInterfacing",
+  "schfilename": "8086MemoryInterfacing.json",
+  "schfilemtime": 1597859059878
+}
